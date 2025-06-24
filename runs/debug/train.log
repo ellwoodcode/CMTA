@@ -1,0 +1,38 @@
+2025-06-24 15:35:28,075 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Train/TCGA_ims1', embed_root='C:/Users/Mahon/Documents/Research/CLAM/IMS1_tangle_embeddings', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', splits_dir='C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle', features_type='pt', batch_size=8, num_epochs=50, lr=0.0001, detach_align=True, results_dir='./runs/debug')
+2025-06-24 15:35:28,076 Using splits file: C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle\splits_0.csv
+2025-06-24 15:44:18,551 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Train/TCGA_ims1', embed_root='C:/Users/Mahon/Documents/Research/CLAM/IMS1_tangle_embeddings', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', splits_dir='C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle', features_type='pt', batch_size=8, num_epochs=50, lr=0.0001, detach_align=True, results_dir='./runs/debug')
+2025-06-24 15:44:18,552 Using splits file: C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle\splits_0.csv
+2025-06-24 16:01:05,293 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Train/TCGA_ims1', embed_root='C:/Users/Mahon/Documents/Research/CLAM/IMS1_tangle_embeddings', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', splits_dir='C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle', features_type='pt', batch_size=8, num_epochs=50, lr=0.0001, detach_align=True, results_dir='./runs/debug')
+2025-06-24 16:01:05,294 Using boolean-mask splits file: C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle\splits_0_bool.csv
+2025-06-24 16:01:05,306 Dataset sizes train=285, val=34, test=31
+2025-06-24 16:08:44,114 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Train/TCGA_ims1', embed_root='C:/Users/Mahon/Documents/Research/CLAM/IMS1_tangle_embeddings', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', splits_dir='C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle', features_type='pt', batch_size=8, num_epochs=50, lr=0.0001, detach_align=True, results_dir='./runs/debug')
+2025-06-24 16:08:44,114 Using boolean-mask splits file: C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle\splits_0_bool.csv
+2025-06-24 16:08:44,124 Dataset sizes train=285, val=34, test=31
+2025-06-24 16:09:59,624 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Train/TCGA_ims1', embed_root='C:/Users/Mahon/Documents/Research/CLAM/IMS1_tangle_embeddings', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', splits_dir='C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle', features_type='pt', batch_size=8, num_epochs=50, lr=0.0001, detach_align=True, results_dir='./runs/debug')
+2025-06-24 16:09:59,624 Using boolean-mask splits file: C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle\splits_0_bool.csv
+2025-06-24 16:09:59,633 Dataset sizes train=285, val=34, test=31
+2025-06-24 16:10:19,511 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Train/TCGA_ims1', embed_root='C:/Users/Mahon/Documents/Research/CLAM/IMS1_tangle_embeddings', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', splits_dir='C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle', features_type='pt', batch_size=8, num_epochs=50, lr=0.0001, detach_align=True, results_dir='./runs/debug')
+2025-06-24 16:10:19,512 Using boolean-mask splits file: C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle\splits_0_bool.csv
+2025-06-24 16:10:19,521 Dataset sizes train=285, val=34, test=31
+2025-06-24 16:23:13,549 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Train/TCGA_ims1', embed_root='C:/Users/Mahon/Documents/Research/CLAM/IMS1_tangle_embeddings', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', splits_dir='C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle', features_type='pt', batch_size=8, num_epochs=50, lr=0.0001, detach_align=True, results_dir='./runs/debug')
+2025-06-24 16:23:13,549 Using boolean-mask splits file: C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle\splits_0_bool.csv
+2025-06-24 16:23:13,559 Dataset sizes train=285, val=34, test=31
+2025-06-24 16:31:50,317 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Train/TCGA_ims1', embed_root='C:/Users/Mahon/Documents/Research/CLAM/IMS1_tangle_embeddings', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', splits_dir='C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle', features_type='pt', batch_size=8, num_epochs=50, lr=0.0001, detach_align=True, results_dir='./runs/debug')
+2025-06-24 16:31:50,317 Using boolean-mask splits file: C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle\splits_0_bool.csv
+2025-06-24 16:31:50,327 Dataset sizes train=285, val=34, test=31
+2025-06-24 16:38:14,477 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Train/TCGA_ims1', embed_root='C:/Users/Mahon/Documents/Research/CLAM/IMS1_tangle_embeddings', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', splits_dir='C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle', features_type='pt', batch_size=8, num_epochs=50, lr=0.0001, detach_align=True, results_dir='./runs/debug')
+2025-06-24 16:38:14,477 Using boolean-mask splits file: C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle\splits_0_bool.csv
+2025-06-24 16:38:14,487 Dataset sizes train=285, val=34, test=31
+2025-06-24 16:48:08,848 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Train/TCGA_ims1', embed_root='C:/Users/Mahon/Documents/Research/CLAM/IMS1_tangle_embeddings', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', splits_dir='C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle', features_type='pt', batch_size=8, num_epochs=50, lr=0.0001, detach_align=True, results_dir='./runs/debug')
+2025-06-24 16:48:08,848 Using boolean-mask splits file: C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle\splits_0_bool.csv
+2025-06-24 16:48:08,858 Dataset sizes train=285, val=34, test=31
+2025-06-24 16:50:20,507 Epoch 1/50, loss=1.3892, val_AUROC=0.8578
+2025-06-24 16:52:20,483 Epoch 2/50, loss=1.2599, val_AUROC=0.8844
+2025-06-24 16:54:20,798 Epoch 3/50, loss=1.2445, val_AUROC=0.8978
+2025-06-24 16:56:21,993 Epoch 4/50, loss=1.2065, val_AUROC=0.9244
+2025-06-24 16:58:23,648 Epoch 5/50, loss=1.1367, val_AUROC=0.9511
+2025-06-24 17:00:29,508 Epoch 6/50, loss=1.1690, val_AUROC=0.9600
+2025-06-24 17:02:43,481 Epoch 7/50, loss=1.1478, val_AUROC=0.9156
+2025-06-24 17:04:56,721 Epoch 8/50, loss=1.1434, val_AUROC=0.9467
+2025-06-24 17:07:09,230 Epoch 9/50, loss=1.0722, val_AUROC=0.9600
+2025-06-24 17:09:22,583 Epoch 10/50, loss=1.0897, val_AUROC=0.9467

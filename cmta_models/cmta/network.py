@@ -66,7 +66,7 @@ class Transformer_P(nn.Module):
         h = torch.cat([features, features[:, :add_length, :]], dim=1)  # [B, N, 512]
         # ---->cls_token
         B = h.shape[0]
-        cls_tokens = self.cls_token.expand(B, -1, -1).cuda()
+        cls_tokens = self.cls_token.expand(B, -1, -1).to(features.device)
         h = torch.cat((cls_tokens, h), dim=1)
         # ---->Translayer x1
         h = self.layer1(h)  # [B, N, 512]
@@ -92,7 +92,7 @@ class Transformer_G(nn.Module):
 
     def forward(self, features):
         # ---->pad
-        cls_tokens = self.cls_token.expand(features.shape[0], -1, -1).cuda()
+        cls_tokens = self.cls_token.expand(features.shape[0], -1, -1).to(features.device)
         h = torch.cat((cls_tokens, features), dim=1)
         # ---->Translayer x1
         h = self.layer1(h)  # [B, N, 512]
@@ -104,7 +104,14 @@ class Transformer_G(nn.Module):
 
 
 class CMTA(nn.Module):
-    def __init__(self, omic_sizes=[100, 200, 300, 400, 500, 600], n_classes=4, fusion="concat", model_size="small"):
+    def __init__(
+        self,
+        omic_sizes=[100, 200, 300, 400, 500, 600],
+        n_classes=4,
+        fusion="concat",
+        model_size="small",
+        path_size=None,
+    ):
         super(CMTA, self).__init__()
 
         self.omic_sizes = omic_sizes
@@ -112,18 +119,22 @@ class CMTA(nn.Module):
         self.fusion = fusion
 
         ###
+        path_dict = {"small": [1024, 256, 256], "large": [1024, 512, 256]}
+        if path_size is not None:
+            # override input dim for pathomics if provided
+            path_dict[model_size][0] = path_size
         self.size_dict = {
-            "pathomics": {"small": [1024, 256, 256], "large": [1024, 512, 256]},
+            "pathomics": path_dict,
             "genomics": {"small": [1024, 256], "large": [1024, 1024, 1024, 256]},
         }
         # Pathomics Embedding Network
         hidden = self.size_dict["pathomics"][model_size]
-        fc = []
+        path_fc = []
         for idx in range(len(hidden) - 1):
-            fc.append(nn.Linear(hidden[idx], hidden[idx + 1]))
-            fc.append(nn.ReLU())
-            fc.append(nn.Dropout(0.25))
-        self.pathomics_fc = nn.Sequential(*fc)
+            path_fc.append(nn.Linear(hidden[idx], hidden[idx + 1]))
+            path_fc.append(nn.ReLU())
+            path_fc.append(nn.Dropout(0.25))
+        self.pathomics_fc = nn.Sequential(*path_fc)
         # Genomic Embedding Network
         hidden = self.size_dict["genomics"][model_size]
         sig_networks = []
@@ -168,7 +179,16 @@ class CMTA(nn.Module):
     def forward(self, **kwargs):
         # meta genomics and pathomics features
         x_path = kwargs["x_path"]
-        x_omic = [kwargs["x_omic%d" % i] for i in range(1, 7)]
+        # collect any genomic inputs (x_omic1, x_omic2, ...) dynamically
+        x_omic = []
+        i = 1
+        while True:
+            key = f"x_omic{i}"
+            if key in kwargs:
+                x_omic.append(kwargs[key])
+                i += 1
+            else:
+                break
 
         # Enbedding
         # genomics embedding
