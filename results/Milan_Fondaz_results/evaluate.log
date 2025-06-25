@@ -1,0 +1,5 @@
+2025-06-24 19:39:33,060 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Evals\\Milan_Fondaz', embed_root='C:/Users/Mahon/Documents/Research/CLAM/EVAL_tangle_embeddings\\Milan_Fondaz', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', features_type='pt', ckpt='C:/Users/Mahon/Documents/Research/CMTA/runs/debug/best.ckpt', batch_size=8, fusion='concat', model_size='small', results_dir='C:/Users/Mahon/Documents/Research/CMTA/results\\Milan_Fondaz_results')
+2025-06-24 19:39:33,061 Loaded 33 samples from C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean\Milan-Italy.csv
+2025-06-24 19:39:33,062 Eval dataset size: 33
+2025-06-24 19:39:45,293 Evaluation over full cohort: {'AUROC': 1.0, 'AUPRC': 1.0, 'acc': np.float64(0.9696969696969697)}
+2025-06-24 19:39:45,294 Saved metrics to C:/Users/Mahon/Documents/Research/CMTA/results\Milan_Fondaz_results\metrics_evaluate.json

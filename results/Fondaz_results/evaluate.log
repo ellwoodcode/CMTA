@@ -1,0 +1,5 @@
+2025-06-24 19:39:01,695 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Evals\\Fondaz', embed_root='C:/Users/Mahon/Documents/Research/CLAM/EVAL_tangle_embeddings\\Fondaz', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', features_type='pt', ckpt='C:/Users/Mahon/Documents/Research/CMTA/runs/debug/best.ckpt', batch_size=8, fusion='concat', model_size='small', results_dir='C:/Users/Mahon/Documents/Research/CMTA/results\\Fondaz_results')
+2025-06-24 19:39:01,696 Loaded 21 samples from C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean\Lombardy-Italy.csv
+2025-06-24 19:39:01,697 Eval dataset size: 21
+2025-06-24 19:39:18,488 Evaluation over full cohort: {'AUROC': 0.9117647058823529, 'AUPRC': 0.9796740626074992, 'acc': np.float64(0.5238095238095238)}
+2025-06-24 19:39:18,488 Saved metrics to C:/Users/Mahon/Documents/Research/CMTA/results\Fondaz_results\metrics_evaluate.json

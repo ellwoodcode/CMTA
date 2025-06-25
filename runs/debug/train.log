@@ -36,3 +36,40 @@
 2025-06-24 17:04:56,721 Epoch 8/50, loss=1.1434, val_AUROC=0.9467
 2025-06-24 17:07:09,230 Epoch 9/50, loss=1.0722, val_AUROC=0.9600
 2025-06-24 17:09:22,583 Epoch 10/50, loss=1.0897, val_AUROC=0.9467
+2025-06-24 17:11:33,244 Epoch 11/50, loss=1.1004, val_AUROC=0.9600
+2025-06-24 17:13:34,368 Epoch 12/50, loss=1.0412, val_AUROC=0.9200
+2025-06-24 17:15:51,332 Epoch 13/50, loss=1.0699, val_AUROC=0.9467
+2025-06-24 17:18:10,784 Epoch 14/50, loss=1.0410, val_AUROC=0.9244
+2025-06-24 17:20:12,431 Epoch 15/50, loss=0.9972, val_AUROC=0.8756
+2025-06-24 17:22:13,747 Epoch 16/50, loss=1.0016, val_AUROC=0.9200
+2025-06-24 17:24:17,899 Epoch 17/50, loss=1.0000, val_AUROC=0.8133
+2025-06-24 17:26:29,143 Epoch 18/50, loss=0.9500, val_AUROC=0.8444
+2025-06-24 17:28:30,703 Epoch 19/50, loss=0.9348, val_AUROC=0.7867
+2025-06-24 17:30:32,616 Epoch 20/50, loss=0.9091, val_AUROC=0.7778
+2025-06-24 17:32:32,987 Epoch 21/50, loss=0.9604, val_AUROC=0.8044
+2025-06-24 17:34:36,335 Epoch 22/50, loss=0.9511, val_AUROC=0.8667
+2025-06-24 17:36:58,682 Epoch 23/50, loss=0.9458, val_AUROC=0.8178
+2025-06-24 17:39:18,233 Epoch 24/50, loss=0.8950, val_AUROC=0.8311
+2025-06-24 17:41:37,141 Epoch 25/50, loss=0.8893, val_AUROC=0.8000
+2025-06-24 17:43:57,655 Epoch 26/50, loss=0.9007, val_AUROC=0.8044
+2025-06-24 17:46:17,109 Epoch 27/50, loss=0.8469, val_AUROC=0.8356
+2025-06-24 17:48:38,377 Epoch 28/50, loss=0.8520, val_AUROC=0.7956
+2025-06-24 17:50:58,067 Epoch 29/50, loss=0.8448, val_AUROC=0.7911
+2025-06-24 17:53:19,904 Epoch 30/50, loss=0.8392, val_AUROC=0.8044
+2025-06-24 17:55:39,507 Epoch 31/50, loss=0.8386, val_AUROC=0.7867
+2025-06-24 17:57:50,037 Epoch 32/50, loss=0.8326, val_AUROC=0.7689
+2025-06-24 17:59:50,669 Epoch 33/50, loss=0.8429, val_AUROC=0.7333
+2025-06-24 18:01:51,568 Epoch 34/50, loss=0.8375, val_AUROC=0.7600
+2025-06-24 18:02:27,552 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Train/TCGA_ims1', embed_root='C:/Users/Mahon/Documents/Research/CLAM/IMS1_tangle_embeddings', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', splits_dir='C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle', features_type='pt', batch_size=8, num_epochs=10, lr=0.0001, detach_align=True, results_dir='./runs/debug')
+2025-06-24 18:02:27,552 Using boolean-mask splits file: C:/Users/Mahon/Documents/Research/CLAM/splits/task_1_tumor_vs_normal_100_ims1_tangle\splits_0_bool.csv
+2025-06-24 18:02:27,562 Dataset sizes train=285, val=34, test=31
+2025-06-24 18:04:29,197 Epoch 1/10, loss=1.3536, val_AUROC=0.8533
+2025-06-24 18:06:28,037 Epoch 2/10, loss=1.2446, val_AUROC=0.8933
+2025-06-24 18:08:29,261 Epoch 3/10, loss=1.2082, val_AUROC=0.8933
+2025-06-24 18:10:29,838 Epoch 4/10, loss=1.2117, val_AUROC=0.8978
+2025-06-24 18:12:29,888 Epoch 5/10, loss=1.2110, val_AUROC=0.9156
+2025-06-24 18:14:29,972 Epoch 6/10, loss=1.1237, val_AUROC=0.9511
+2025-06-24 18:16:30,856 Epoch 7/10, loss=1.1177, val_AUROC=0.9200
+2025-06-24 18:18:31,401 Epoch 8/10, loss=1.1611, val_AUROC=0.9022
+2025-06-24 18:20:30,558 Epoch 9/10, loss=1.0560, val_AUROC=0.9422
+2025-06-24 18:22:32,485 Epoch 10/10, loss=1.0507, val_AUROC=0.9378

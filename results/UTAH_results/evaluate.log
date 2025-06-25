@@ -1,0 +1,5 @@
+2025-06-24 19:42:32,165 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Evals\\UTAH', embed_root='C:/Users/Mahon/Documents/Research/CLAM/EVAL_tangle_embeddings\\UTAH', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', features_type='pt', ckpt='C:/Users/Mahon/Documents/Research/CMTA/runs/debug/best.ckpt', batch_size=8, fusion='concat', model_size='small', results_dir='C:/Users/Mahon/Documents/Research/CMTA/results\\UTAH_results')
+2025-06-24 19:42:32,168 Loaded 60 samples from C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean\Utah.csv
+2025-06-24 19:42:32,168 Eval dataset size: 60
+2025-06-24 19:43:34,399 Evaluation over full cohort: {'AUROC': 0.880984952120383, 'AUPRC': 0.9601588721681824, 'acc': np.float64(0.7)}
+2025-06-24 19:43:34,401 Saved metrics to C:/Users/Mahon/Documents/Research/CMTA/results\UTAH_results\metrics_evaluate.json

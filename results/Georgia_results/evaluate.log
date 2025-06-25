@@ -1,0 +1,5 @@
+2025-06-24 19:39:20,608 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Evals\\Georgia', embed_root='C:/Users/Mahon/Documents/Research/CLAM/EVAL_tangle_embeddings\\Georgia', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', features_type='pt', ckpt='C:/Users/Mahon/Documents/Research/CMTA/runs/debug/best.ckpt', batch_size=8, fusion='concat', model_size='small', results_dir='C:/Users/Mahon/Documents/Research/CMTA/results\\Georgia_results')
+2025-06-24 19:39:20,610 Loaded 73 samples from C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean\Georgia.csv
+2025-06-24 19:39:20,610 Eval dataset size: 73
+2025-06-24 19:39:31,114 Evaluation over full cohort: {'AUROC': 0.875, 'AUPRC': 0.3887339086352244, 'acc': np.float64(0.8767123287671232)}
+2025-06-24 19:39:31,115 Saved metrics to C:/Users/Mahon/Documents/Research/CMTA/results\Georgia_results\metrics_evaluate.json

@@ -1,0 +1,5 @@
+2025-06-24 19:39:47,251 Args: Namespace(features_root='C:/Users/Mahon/Documents/Research/CLAM/Phase3A_Baseline_Features/Evals\\Minnesota', embed_root='C:/Users/Mahon/Documents/Research/CLAM/EVAL_tangle_embeddings\\Minnesota', labels_root='C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean', features_type='pt', ckpt='C:/Users/Mahon/Documents/Research/CMTA/runs/debug/best.ckpt', batch_size=8, fusion='concat', model_size='small', results_dir='C:/Users/Mahon/Documents/Research/CMTA/results\\Minnesota_results')
+2025-06-24 19:39:47,253 Loaded 63 samples from C:/Users/Mahon/Documents/Research/CLAM/Labels/Boolean\Minnesota.csv
+2025-06-24 19:39:47,253 Eval dataset size: 63
+2025-06-24 19:40:44,311 Evaluation over full cohort: {'AUROC': 0.8903061224489796, 'AUPRC': 0.9852551494010074, 'acc': np.float64(0.4603174603174603)}
+2025-06-24 19:40:44,312 Saved metrics to C:/Users/Mahon/Documents/Research/CMTA/results\Minnesota_results\metrics_evaluate.json
